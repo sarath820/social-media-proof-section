@@ -1,0 +1,132 @@
+
+body{
+ font-family: 'Spartan', sans-serif;
+
+
+
+}
+.box{
+  width: 20%;
+  position: relative;
+  bottom: 100px;
+}
+.by{
+  color: hsl(333, 80%, 67%);
+}
+
+.first{
+  background-color:  hsl(300, 43%, 22%);
+  padding: 20px;
+  border-radius: 2.5%;
+
+
+
+}
+
+
+h1{
+  width: 15%;
+  color:hsl(300, 43%, 22%);
+}
+h6{
+
+   display: inline;
+
+}
+
+
+img{
+float: left;
+width: 40px;
+border-radius: 50%;
+margin-right: 10px;
+}
+
+
+.img2{
+  float: left;
+  margin-right: 20px;}
+
+
+.infinity{
+position: relative;
+left: 480px;
+bottom: 200px;
+
+}
+
+.name{
+  margin-top: 0;
+}
+
+.one{
+  color: grey;
+  width: 25%;
+  line-height: 1.5;
+}
+p{
+color: hsl(0, 0%, 100%);
+
+}
+
+.second{
+  background-color:  hsl(300, 43%, 22%);
+
+  border-radius: 2.5%;
+  position: relative;
+  left: 330px;
+  bottom: 170px;
+  padding: 20px;
+
+}
+
+span{
+  margin-right: 20px;
+}
+.rate{
+  width: 12px;
+
+}
+
+
+.star1{
+ border-style: hidden;
+ background-color: hsl(300, 24%, 96%);
+ width: 20%;
+ padding: 10px;
+ border-radius: 2%;
+
+
+}
+.star2{
+  border-style: hidden;
+
+  background-color: hsl(300, 24%, 96%);
+  width: 20%;
+  margin-top: 20px;
+  position: relative;
+  left: 30px;
+  padding: 10px;
+  border-radius: 2%;
+}
+.star3{
+  border-style: hidden;
+  background-color: hsl(300, 24%, 96%);
+  width: 20%;
+  margin-top: 20px;
+  position: relative;
+  left: 60px;
+  padding:10px;
+  border-radius: 2%;
+}
+
+.third{
+  background-color:  hsl(300, 43%, 22%);
+  padding: 20px;
+  border-radius: 2.5%;
+  position: relative;
+  left: 660px;
+  bottom: 340px;
+
+
+}
