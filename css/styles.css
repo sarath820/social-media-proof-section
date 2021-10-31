@@ -1,132 +1,212 @@
+body {
+  font-family: 'Spartan', sans-serif;
 
-body{
- font-family: 'Spartan', sans-serif;
+}
+
+.trinity {
+  display: flex;
+
+}
+
+.box {
+  display: flex;
 
 
 
 }
-.box{
-  width: 20%;
-  position: relative;
-  bottom: 100px;
-}
-.by{
+
+.by {
   color: hsl(333, 80%, 67%);
 }
 
-.first{
-  background-color:  hsl(300, 43%, 22%);
-  padding: 20px;
+.first {
+  background-color: hsl(300, 43%, 22%);
   border-radius: 2.5%;
-
+  flex-basis: 275px;
+  padding: 20px;
+  margin-right: 20px;
 
 
 }
 
-
-h1{
-  width: 15%;
-  color:hsl(300, 43%, 22%);
-}
-h6{
-
-   display: inline;
-
+h1 {
+  width: 45%;
+  color: hsl(300, 43%, 22%);
 }
 
-
-img{
-float: left;
-width: 40px;
-border-radius: 50%;
-margin-right: 10px;
+h6 {
+margin-right: 110px;
 }
 
-
-.img2{
+.c {
   float: left;
-  margin-right: 20px;}
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
 
-
-.infinity{
-position: relative;
-left: 480px;
-bottom: 200px;
+.img2 {
+  align-self: center;
 
 }
 
-.name{
+.infinity {
+  flex: 2;
+  align-self: center;
+}
+
+.name {
   margin-top: 0;
 }
 
-.one{
+.one {
   color: grey;
-  width: 25%;
+  width: 80%;
   line-height: 1.5;
 }
-p{
-color: hsl(0, 0%, 100%);
 
+
+p {
+  color: hsl(0, 0%, 100%);
 }
 
-.second{
-  background-color:  hsl(300, 43%, 22%);
-
+.second {
+  background-color: hsl(300, 43%, 22%);
   border-radius: 2.5%;
-  position: relative;
-  left: 330px;
-  bottom: 170px;
-  padding: 20px;
-
+flex-basis: 275px;
+padding: 20px;
+margin-right: 20px;
+position: relative;
+top:20px;
 }
 
-span{
+span {
   margin-right: 20px;
 }
-.rate{
-  width: 12px;
 
+.rate {
+  width: 12px;
+}
+
+.star1 {
+  border-style: hidden;
+  background-color: hsl(300, 24%, 96%);
+  display: flex;
+  width: 35%;
+  justify-content: space-around;
+}
+
+.star2 {
+  border-style: hidden;
+  background-color: hsl(300, 24%, 96%);
+  margin-left: 20px;
+  display: flex;
+  width: 35%;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.star3 {
+  border-style: hidden;
+  background-color: hsl(300, 24%, 96%);
+  margin-left: 40px;
+  display: flex;
+  width: 35%;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.third {
+  background-color: hsl(300, 43%, 22%);
+padding: 20px;
+  border-radius: 2.5%;
+flex-basis: 275px;
+position: relative;
+top:40px;
+
+}
+
+.zero {
+  flex: 1;
+}
+
+@media only screen and (max-width:400px){
+h1{
+  margin: auto;
+  width: 65%;
+}
+h6{
+  margin-right: 0;
+
+}
+.one{
+  margin: auto;
+  margin-top: 10px;
+}
+.infinity{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.trinity{
+  display: block;
+}
+.box{
+  display: block;
+  margin-top: 20px;
+
+}
+.first{
+  width: 80%;
+    margin: auto;
+}
+.second{
+  width: 80%;
+  margin: auto;
+}
+.third{
+  width: 80%;
+    margin: auto;
 }
 
 
 .star1{
- border-style: hidden;
- background-color: hsl(300, 24%, 96%);
- width: 20%;
- padding: 10px;
- border-radius: 2%;
+  width: 80%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
 
 }
 .star2{
-  border-style: hidden;
 
-  background-color: hsl(300, 24%, 96%);
-  width: 20%;
-  margin-top: 20px;
-  position: relative;
-  left: 30px;
-  padding: 10px;
-  border-radius: 2%;
+
+  width: 80%;
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-left: 0;
 }
 .star3{
-  border-style: hidden;
-  background-color: hsl(300, 24%, 96%);
-  width: 20%;
-  margin-top: 20px;
-  position: relative;
-  left: 60px;
-  padding:10px;
-  border-radius: 2%;
+
+
+  width: 80%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+align-items: center;
+ margin-left: 0;
 }
-
-.third{
-  background-color:  hsl(300, 43%, 22%);
-  padding: 20px;
-  border-radius: 2.5%;
-  position: relative;
-  left: 660px;
-  bottom: 340px;
-
-
+.ser{
+  margin-left: 17%;
+}
+.so{
+  margin-left: 37%;
+}
 }
